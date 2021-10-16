@@ -1,0 +1,139 @@
+14:32:15 **** Rebuild of configuration Debug for project trabajo_practico_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesEmpleados.o" "..\\src\\funcionesEmpleados.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo_practico_2.o" "..\\src\\trabajo_practico_2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployees.o" "..\\src\\ArrayEmployees.c" 
+gcc -o trabajo_practico_2.exe "src\\ArrayEmployees.o" "src\\funcionesEmpleados.o" "src\\trabajo_practico_2.o" 
+Info: Nothing to build for trabajo_practico_2
+Info: Nothing to build for trabajo_practico_2
+Info: Nothing to build for trabajo_practico_2
+Info: Nothing to build for trabajo_practico_2
+Info: Nothing to build for trabajo_practico_2
+Info: Nothing to build for trabajo_practico_2
+Info: Nothing to build for trabajo_practico_2
+Info: Nothing to build for trabajo_practico_2
+14:37:54 **** Building Selected Files of configuration Debug for project trabajo_practico_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo_practico_2.o" "..\\src\\trabajo_practico_2.c" 
+In file included from ..\src\trabajo_practico_2.c:17:
+c:\mingw\include\ctype.h: In function 'main':
+c:\mingw\include\ctype.h:240:43: error: nested function 'isleadbyte' declared 'extern'
+  240 | __CRT_INLINE __cdecl __MINGW_NOTHROW  int isleadbyte (int c)
+      |                                           ^~~~~~~~~~
+c:\mingw\include\ctype.h:240:43: error: static declaration of 'isleadbyte' follows non-static declaration
+c:\mingw\include\ctype.h:76:38: note: previous declaration of 'isleadbyte' was here
+   76 | _CRTIMP __cdecl __MINGW_NOTHROW  int isleadbyte (int);
+      |                                      ^~~~~~~~~~
+In file included from c:\mingw\include\string.h:170,
+                 from ..\src\trabajo_practico_2.c:18:
+c:\mingw\include\wchar.h:512:20: error: nested function 'wcsnlen' declared 'extern'
+  512 | __CRT_ALIAS size_t wcsnlen (const wchar_t *__text, size_t __maxlen)
+      |                    ^~~~~~~
+In file included from ..\src\trabajo_practico_2.c:18:
+c:\mingw\include\string.h:196:20: error: nested function 'strnlen' declared 'extern'
+  196 | __CRT_ALIAS size_t strnlen (const char *__text, size_t __maxlen)
+      |                    ^~~~~~~
+c:\mingw\include\string.h:247:17: error: nested function 'strerror_s' declared 'extern'
+  247 | __CRT_ALIAS int strerror_s (char *__buf, size_t __len, int __err)
+      |                 ^~~~~~~~~~
+..\src\trabajo_practico_2.c:29:5: warning: 'main' is normally a non-static function [-Wmain]
+   29 | int main()
+      |     ^~~~
+..\src\trabajo_practico_2.c: In function 'main':
+..\src\trabajo_practico_2.c:47:32: error: 'hardId' undeclared (first use in this function)
+   47 |         listaEmpleados[i].id = hardId[i];
+      |                                ^~~~~~
+..\src\trabajo_practico_2.c:47:32: note: each undeclared identifier is reported only once for each function it appears in
+..\src\trabajo_practico_2.c:48:40: error: 'hardNombres' undeclared (first use in this function)
+   48 |         strcpy(listaEmpleados[i].name, hardNombres[i]);
+      |                                        ^~~~~~~~~~~
+..\src\trabajo_practico_2.c:49:44: error: 'hardApellidos' undeclared (first use in this function)
+   49 |         strcpy(listaEmpleados[i].lastName, hardApellidos[i]);
+      |                                            ^~~~~~~~~~~~~
+..\src\trabajo_practico_2.c:50:36: error: 'hardSalarios' undeclared (first use in this function); did you mean 'cantSalarios'?
+   50 |         listaEmpleados[i].salary = hardSalarios[i];
+      |                                    ^~~~~~~~~~~~
+      |                                    cantSalarios
+..\src\trabajo_practico_2.c:51:36: error: 'hardSector' undeclared (first use in this function)
+   51 |         listaEmpleados[i].sector = hardSector[i];
+      |                                    ^~~~~~~~~~
+At top level:
+..\src\trabajo_practico_2.c:29:5: warning: 'main' defined but not used [-Wunused-function]
+   29 | int main()
+      |     ^~~~
+14:50:25 **** Rebuild of configuration Debug for project trabajo_practico_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\operaciones.o" "..\\src\\operaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validacionesMenu.o" "..\\src\\validacionesMenu.c" 
+gcc -o trabajo_practico_1.exe "src\\main.o" "src\\operaciones.o" "src\\validacionesMenu.o" 
+Info: Nothing to build for trabajo_practico_1
+Info: Nothing to build for trabajo_practico_1
+Info: Nothing to build for trabajo_practico_1
+Info: Nothing to build for trabajo_practico_1
+Info: Nothing to build for trabajo_practico_1
+Info: Nothing to build for trabajo_practico_1
+15:04:04 **** Rebuild of configuration Debug for project trabajo_practico_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo_practico_2.o" "..\\src\\trabajo_practico_2.c" 
+..\src\trabajo_practico_2.c:15:10: fatal error: hardCode.h: No such file or directory
+   15 | #include "hardCode.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+15:05:08 **** Incremental Build of configuration Debug for project trabajo_practico_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funciones.o" "..\\src\\funciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo_practico_2.o" "..\\src\\trabajo_practico_2.c" 
+..\src\trabajo_practico_2.c:15:10: fatal error: hardCode.h: No such file or directory
+   15 | #include "hardCode.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+15:05:16 **** Incremental Build of configuration Debug for project trabajo_practico_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo_practico_2.o" "..\\src\\trabajo_practico_2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployes.o" "..\\src\\ArrayEmployes.c" 
+gcc -o trabajo_practico_2.exe "src\\ArrayEmployes.o" "src\\funciones.o" "src\\trabajo_practico_2.o" 
+15:08:23 **** Rebuild of configuration Debug for project trabajo_practico_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validacionesMenu.o" "..\\src\\validacionesMenu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\operaciones.o" "..\\src\\operaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o trabajo_practico_1.exe "src\\main.o" "src\\operaciones.o" "src\\validacionesMenu.o" 
+Info: Nothing to build for trabajo_practico_2
+Info: Nothing to build for trabajo_practico_1
+Info: Nothing to build for trabajo_practico_1
+Info: Nothing to build for trabajo_practico_2
+Info: Nothing to build for trabajo_practico_2
+Info: Nothing to build for trabajo_practico_2
+Info: Nothing to build for trabajo_practico_2
+15:09:47 **** Incremental Build of configuration Debug for project trabajo_practico_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo_practico_2.o" "..\\src\\trabajo_practico_2.c" 
+gcc -o trabajo_practico_2.exe "src\\ArrayEmployes.o" "src\\funciones.o" "src\\trabajo_practico_2.o" 
+Info: Nothing to build for trabajo_practico_2
+Info: Nothing to build for trabajo_practico_2
+15:11:42 **** Incremental Build of configuration Debug for project trabajo_practico_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo_practico_2.o" "..\\src\\trabajo_practico_2.c" 
+gcc -o trabajo_practico_2.exe "src\\ArrayEmployes.o" "src\\funciones.o" "src\\trabajo_practico_2.o" 
+Info: Nothing to build for trabajo_practico_2
+15:12:30 **** Incremental Build of configuration Debug for project trabajo_practico_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo_practico_2.o" "..\\src\\trabajo_practico_2.c" 
+gcc -o trabajo_practico_2.exe "src\\ArrayEmployes.o" "src\\funciones.o" "src\\trabajo_practico_2.o" 
+Info: Nothing to build for trabajo_practico_2
+15:14:13 **** Incremental Build of configuration Debug for project trabajo_practico_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo_practico_2.o" "..\\src\\trabajo_practico_2.c" 
+gcc -o trabajo_practico_2.exe "src\\ArrayEmployes.o" "src\\funciones.o" "src\\trabajo_practico_2.o" 
+Info: Nothing to build for trabajo_practico_2
+15:14:41 **** Incremental Build of configuration Debug for project trabajo_practico_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo_practico_2.o" "..\\src\\trabajo_practico_2.c" 
+gcc -o trabajo_practico_2.exe "src\\ArrayEmployes.o" "src\\funciones.o" "src\\trabajo_practico_2.o" 
+Info: Nothing to build for trabajo_practico_2
+15:15:59 **** Incremental Build of configuration Debug for project trabajo_practico_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo_practico_2.o" "..\\src\\trabajo_practico_2.c" 
+gcc -o trabajo_practico_2.exe "src\\ArrayEmployes.o" "src\\funciones.o" "src\\trabajo_practico_2.o" 
+Info: Nothing to build for trabajo_practico_2
